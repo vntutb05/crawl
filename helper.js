@@ -1,7 +1,7 @@
 function priceFormat(string){
     let length = string.length;
     if(string[0]!="$"){
-        return string.slice(6,length-1).trim();
+        return string.slice(0,length-1).trim();
     }
     return string.slice(1,length-1);
 }
